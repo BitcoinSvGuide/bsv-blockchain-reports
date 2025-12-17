@@ -23,10 +23,9 @@ These are mainnet snapshots (November-December 2025) from public explorers: What
 ## Example CSV Output Format:
 ```csv
 Chain,LargestBlockBytes,PeakTxPerBlock,TypicalFeeUSD,ArchitectureTradeoff
-BSV,4000000000,7126502,"$0.0000002-0.000006","Unbounded L1; no L2 fragmentation"
-BTC,1700000,8000,"$0.09-0.45","L1 limited; Lightning L2 required"
-ETH_L1,2000000,272,"$0.50-5+","Gas-limited L1; 139 L2s for scale"
-ETH_L2_Combined,N/A,N/A,"Varies","10.53B monthly txs across 139 chains"
+BSV,4000000000,7126502,"$0.0000002-0.000006","Unbounded L1 capacity"
+BTC,1700000,8000,"$0.09-0.45","Limited L1; Lightning L2 required"
+ETH_L1,2000000,272,"$0.50-5+","Gas-limited L1; 139 L2s required for scale"
 Solana,N/A,530,"<$0.01","Fast but 7.5% failure rate; 70% vote overhead"
 ```
 
